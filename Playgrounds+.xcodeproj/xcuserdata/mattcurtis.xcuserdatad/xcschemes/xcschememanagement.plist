@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Playgrounds+.xcscheme</key>
+		<key>Playgrounds+ Mac.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+		<key>Playgrounds+ iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5725523C1FEDA4E8002EB33C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>572552591FEDA580002EB33C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>577399581FEF071B0037DC49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -12,20 +12,108 @@
 		572552461FEDA4E8002EB33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572552441FEDA4E8002EB33C /* Main.storyboard */; };
 		572552481FEDA4E8002EB33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572552471FEDA4E8002EB33C /* Assets.xcassets */; };
 		5725524B1FEDA4E8002EB33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572552491FEDA4E8002EB33C /* LaunchScreen.storyboard */; };
+		572552551FEDA529002EB33C /* PlaygroundBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572552541FEDA529002EB33C /* PlaygroundBundle.swift */; };
+		5725525D1FEDA580002EB33C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5725525C1FEDA580002EB33C /* AppDelegate.swift */; };
+		5725525F1FEDA580002EB33C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5725525E1FEDA580002EB33C /* ViewController.swift */; };
+		572552611FEDA580002EB33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572552601FEDA580002EB33C /* Assets.xcassets */; };
+		572552641FEDA580002EB33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572552621FEDA580002EB33C /* Main.storyboard */; };
+		5725527B1FEDA70F002EB33C /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 572552731FEDA70E002EB33C /* PTChannel.m */; };
+		5725527C1FEDA70F002EB33C /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 572552731FEDA70E002EB33C /* PTChannel.m */; };
+		5725527D1FEDA70F002EB33C /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 572552761FEDA70E002EB33C /* PTProtocol.m */; };
+		5725527E1FEDA70F002EB33C /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 572552761FEDA70E002EB33C /* PTProtocol.m */; };
+		5725527F1FEDA70F002EB33C /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 572552781FEDA70E002EB33C /* PTUSBHub.m */; };
+		572552801FEDA70F002EB33C /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 572552781FEDA70E002EB33C /* PTUSBHub.m */; };
+		572552881FEDF25B002EB33C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572552871FEDF25B002EB33C /* Common.swift */; };
+		572552891FEDF25B002EB33C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572552871FEDF25B002EB33C /* Common.swift */; };
+		5725528B1FEE054B002EB33C /* USBBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5725528A1FEE054B002EB33C /* USBBridge.swift */; };
+		5763706F1FF49172003451E8 /* WindowFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = 5763706D1FF49172003451E8 /* WindowFrame.png */; };
+		576370701FF49172003451E8 /* WindowFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5763706E1FF49172003451E8 /* WindowFrame@2x.png */; };
+		576370711FF49185003451E8 /* WindowFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = 5763706D1FF49172003451E8 /* WindowFrame.png */; };
+		576370721FF49185003451E8 /* WindowFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5763706E1FF49172003451E8 /* WindowFrame@2x.png */; };
+		576370741FF4BF61003451E8 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576370731FF4BF61003451E8 /* MainWindow.swift */; };
+		576370771FF54ED7003451E8 /* MenubarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 576370751FF54ED7003451E8 /* MenubarIcon@2x.png */; };
+		576370781FF54ED7003451E8 /* MenubarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 576370761FF54ED7003451E8 /* MenubarIcon.png */; };
+		577399521FEE27C30037DC49 /* USBBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577399511FEE27C30037DC49 /* USBBridge.swift */; };
+		5773995C1FEF071B0037DC49 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5773995B1FEF071B0037DC49 /* main.swift */; };
+		577399641FEF11AD0037DC49 /* KeepAlive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577399631FEF11AD0037DC49 /* KeepAlive.swift */; };
+		577399661FEF11CC0037DC49 /* silent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 577399651FEF11CC0037DC49 /* silent.wav */; };
+		577399671FEF11D60037DC49 /* silent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 577399651FEF11CC0037DC49 /* silent.wav */; };
+		5773996D1FEF5A950037DC49 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572552871FEDF25B002EB33C /* Common.swift */; };
+		577399741FEF73660037DC49 /* USBBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577399511FEE27C30037DC49 /* USBBridge.swift */; };
+		577399751FEF74FF0037DC49 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 572552731FEDA70E002EB33C /* PTChannel.m */; };
+		577399761FEF74FF0037DC49 /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 572552761FEDA70E002EB33C /* PTProtocol.m */; };
+		577399771FEF74FF0037DC49 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 572552781FEDA70E002EB33C /* PTUSBHub.m */; };
+		577399791FEF81B20037DC49 /* FolderWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577399781FEF81B20037DC49 /* FolderWatcher.swift */; };
+		5773997C1FEF82740037DC49 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5773997B1FEF82740037DC49 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5773995E1FEF071B0037DC49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572552351FEDA4E8002EB33C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5725523C1FEDA4E8002EB33C;
+			remoteInfo = "iosPlaygrounds+";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		5725523D1FEDA4E8002EB33C /* Playgrounds+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playgrounds+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5725523D1FEDA4E8002EB33C /* iosPlaygrounds+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosPlaygrounds+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		572552401FEDA4E8002EB33C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		572552421FEDA4E8002EB33C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		572552451FEDA4E8002EB33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		572552471FEDA4E8002EB33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5725524A1FEDA4E8002EB33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5725524C1FEDA4E8002EB33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572552541FEDA529002EB33C /* PlaygroundBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundBundle.swift; sourceTree = "<group>"; };
+		5725525A1FEDA580002EB33C /* macPlaygrounds+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macPlaygrounds+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5725525C1FEDA580002EB33C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5725525E1FEDA580002EB33C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		572552601FEDA580002EB33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		572552631FEDA580002EB33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		572552651FEDA580002EB33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572552701FEDA70E002EB33C /* Peertalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peertalk.h; sourceTree = "<group>"; };
+		572552721FEDA70E002EB33C /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
+		572552731FEDA70E002EB33C /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
+		572552741FEDA70E002EB33C /* PTPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPrivate.h; sourceTree = "<group>"; };
+		572552751FEDA70E002EB33C /* PTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTProtocol.h; sourceTree = "<group>"; };
+		572552761FEDA70E002EB33C /* PTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTProtocol.m; sourceTree = "<group>"; };
+		572552771FEDA70E002EB33C /* PTUSBHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTUSBHub.h; sourceTree = "<group>"; };
+		572552781FEDA70E002EB33C /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
+		572552871FEDF25B002EB33C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		5725528A1FEE054B002EB33C /* USBBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBBridge.swift; sourceTree = "<group>"; };
+		5763706D1FF49172003451E8 /* WindowFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WindowFrame.png; sourceTree = "<group>"; };
+		5763706E1FF49172003451E8 /* WindowFrame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WindowFrame@2x.png"; sourceTree = "<group>"; };
+		576370731FF4BF61003451E8 /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		576370751FF54ED7003451E8 /* MenubarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenubarIcon@2x.png"; sourceTree = "<group>"; };
+		576370761FF54ED7003451E8 /* MenubarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenubarIcon.png; sourceTree = "<group>"; };
+		577399511FEE27C30037DC49 /* USBBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBBridge.swift; sourceTree = "<group>"; };
+		577399591FEF071B0037DC49 /* P+ Helper.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P+ Helper.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5773995B1FEF071B0037DC49 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5773995D1FEF071B0037DC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577399631FEF11AD0037DC49 /* KeepAlive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepAlive.swift; sourceTree = "<group>"; };
+		577399651FEF11CC0037DC49 /* silent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silent.wav; sourceTree = "<group>"; };
+		577399781FEF81B20037DC49 /* FolderWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderWatcher.swift; sourceTree = "<group>"; };
+		5773997B1FEF82740037DC49 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5725523A1FEDA4E8002EB33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572552571FEDA580002EB33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5773997C1FEF82740037DC49 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577399561FEF071B0037DC49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,38 +126,108 @@
 		572552341FEDA4E8002EB33C = {
 			isa = PBXGroup;
 			children = (
-				5725523F1FEDA4E8002EB33C /* Playgrounds+ */,
+				572552871FEDF25B002EB33C /* Common.swift */,
+				5725526E1FEDA70E002EB33C /* Peertalk */,
+				5725523F1FEDA4E8002EB33C /* Playgrounds+ iOS */,
+				5725525B1FEDA580002EB33C /* Playgrounds+ Mac */,
+				5773995A1FEF071B0037DC49 /* iosPlaygrounds+ UITests */,
 				5725523E1FEDA4E8002EB33C /* Products */,
+				5773997A1FEF82740037DC49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5725523E1FEDA4E8002EB33C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5725523D1FEDA4E8002EB33C /* Playgrounds+.app */,
+				5725523D1FEDA4E8002EB33C /* iosPlaygrounds+.app */,
+				5725525A1FEDA580002EB33C /* macPlaygrounds+.app */,
+				577399591FEF071B0037DC49 /* P+ Helper.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5725523F1FEDA4E8002EB33C /* Playgrounds+ */ = {
+		5725523F1FEDA4E8002EB33C /* Playgrounds+ iOS */ = {
 			isa = PBXGroup;
 			children = (
+				577399651FEF11CC0037DC49 /* silent.wav */,
+				577399631FEF11AD0037DC49 /* KeepAlive.swift */,
 				572552401FEDA4E8002EB33C /* AppDelegate.swift */,
+				572552541FEDA529002EB33C /* PlaygroundBundle.swift */,
 				572552421FEDA4E8002EB33C /* ViewController.swift */,
+				577399511FEE27C30037DC49 /* USBBridge.swift */,
 				572552441FEDA4E8002EB33C /* Main.storyboard */,
 				572552471FEDA4E8002EB33C /* Assets.xcassets */,
 				572552491FEDA4E8002EB33C /* LaunchScreen.storyboard */,
 				5725524C1FEDA4E8002EB33C /* Info.plist */,
 			);
-			path = "Playgrounds+";
+			path = "Playgrounds+ iOS";
+			sourceTree = "<group>";
+		};
+		5725525B1FEDA580002EB33C /* Playgrounds+ Mac */ = {
+			isa = PBXGroup;
+			children = (
+				5763706C1FF49172003451E8 /* Images */,
+				5725525C1FEDA580002EB33C /* AppDelegate.swift */,
+				5725525E1FEDA580002EB33C /* ViewController.swift */,
+				5725528A1FEE054B002EB33C /* USBBridge.swift */,
+				577399781FEF81B20037DC49 /* FolderWatcher.swift */,
+				576370731FF4BF61003451E8 /* MainWindow.swift */,
+				572552601FEDA580002EB33C /* Assets.xcassets */,
+				572552621FEDA580002EB33C /* Main.storyboard */,
+				572552651FEDA580002EB33C /* Info.plist */,
+			);
+			path = "Playgrounds+ Mac";
+			sourceTree = "<group>";
+		};
+		5725526E1FEDA70E002EB33C /* Peertalk */ = {
+			isa = PBXGroup;
+			children = (
+				572552701FEDA70E002EB33C /* Peertalk.h */,
+				572552721FEDA70E002EB33C /* PTChannel.h */,
+				572552731FEDA70E002EB33C /* PTChannel.m */,
+				572552741FEDA70E002EB33C /* PTPrivate.h */,
+				572552751FEDA70E002EB33C /* PTProtocol.h */,
+				572552761FEDA70E002EB33C /* PTProtocol.m */,
+				572552771FEDA70E002EB33C /* PTUSBHub.h */,
+				572552781FEDA70E002EB33C /* PTUSBHub.m */,
+			);
+			path = Peertalk;
+			sourceTree = "<group>";
+		};
+		5763706C1FF49172003451E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				576370761FF54ED7003451E8 /* MenubarIcon.png */,
+				576370751FF54ED7003451E8 /* MenubarIcon@2x.png */,
+				5763706D1FF49172003451E8 /* WindowFrame.png */,
+				5763706E1FF49172003451E8 /* WindowFrame@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5773995A1FEF071B0037DC49 /* iosPlaygrounds+ UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5773995B1FEF071B0037DC49 /* main.swift */,
+				5773995D1FEF071B0037DC49 /* Info.plist */,
+			);
+			path = "iosPlaygrounds+ UITests";
+			sourceTree = "<group>";
+		};
+		5773997A1FEF82740037DC49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5773997B1FEF82740037DC49 /* CoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5725523C1FEDA4E8002EB33C /* Playgrounds+ */ = {
+		5725523C1FEDA4E8002EB33C /* iosPlaygrounds+ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5725524F1FEDA4E8002EB33C /* Build configuration list for PBXNativeTarget "Playgrounds+" */;
+			buildConfigurationList = 5725524F1FEDA4E8002EB33C /* Build configuration list for PBXNativeTarget "iosPlaygrounds+" */;
 			buildPhases = (
 				572552391FEDA4E8002EB33C /* Sources */,
 				5725523A1FEDA4E8002EB33C /* Frameworks */,
@@ -79,10 +237,45 @@
 			);
 			dependencies = (
 			);
-			name = "Playgrounds+";
+			name = "iosPlaygrounds+";
 			productName = "Playgrounds+";
-			productReference = 5725523D1FEDA4E8002EB33C /* Playgrounds+.app */;
+			productReference = 5725523D1FEDA4E8002EB33C /* iosPlaygrounds+.app */;
 			productType = "com.apple.product-type.application";
+		};
+		572552591FEDA580002EB33C /* macPlaygrounds+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572552671FEDA580002EB33C /* Build configuration list for PBXNativeTarget "macPlaygrounds+" */;
+			buildPhases = (
+				572552561FEDA580002EB33C /* Sources */,
+				572552571FEDA580002EB33C /* Frameworks */,
+				572552581FEDA580002EB33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macPlaygrounds+";
+			productName = "macPlaygrounds+";
+			productReference = 5725525A1FEDA580002EB33C /* macPlaygrounds+.app */;
+			productType = "com.apple.product-type.application";
+		};
+		577399581FEF071B0037DC49 /* P+ Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577399601FEF071B0037DC49 /* Build configuration list for PBXNativeTarget "P+ Helper" */;
+			buildPhases = (
+				577399551FEF071B0037DC49 /* Sources */,
+				577399561FEF071B0037DC49 /* Frameworks */,
+				577399571FEF071B0037DC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5773995F1FEF071B0037DC49 /* PBXTargetDependency */,
+			);
+			name = "P+ Helper";
+			productName = "iosPlaygrounds+ UITests";
+			productReference = 577399591FEF071B0037DC49 /* P+ Helper.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +290,26 @@
 					5725523C1FEDA4E8002EB33C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					572552591FEDA580002EB33C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					577399581FEF071B0037DC49 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5725523C1FEDA4E8002EB33C;
 					};
 				};
 			};
@@ -113,7 +326,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5725523C1FEDA4E8002EB33C /* Playgrounds+ */,
+				5725523C1FEDA4E8002EB33C /* iosPlaygrounds+ */,
+				577399581FEF071B0037DC49 /* P+ Helper */,
+				572552591FEDA580002EB33C /* macPlaygrounds+ */,
 			);
 		};
 /* End PBXProject section */
@@ -124,8 +339,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				5725524B1FEDA4E8002EB33C /* LaunchScreen.storyboard in Resources */,
+				577399661FEF11CC0037DC49 /* silent.wav in Resources */,
+				576370701FF49172003451E8 /* WindowFrame@2x.png in Resources */,
 				572552481FEDA4E8002EB33C /* Assets.xcassets in Resources */,
+				5763706F1FF49172003451E8 /* WindowFrame.png in Resources */,
 				572552461FEDA4E8002EB33C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572552581FEDA580002EB33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572552611FEDA580002EB33C /* Assets.xcassets in Resources */,
+				576370781FF54ED7003451E8 /* MenubarIcon.png in Resources */,
+				572552641FEDA580002EB33C /* Main.storyboard in Resources */,
+				576370711FF49185003451E8 /* WindowFrame.png in Resources */,
+				576370721FF49185003451E8 /* WindowFrame@2x.png in Resources */,
+				576370771FF54ED7003451E8 /* MenubarIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577399571FEF071B0037DC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577399671FEF11D60037DC49 /* silent.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,12 +375,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572552881FEDF25B002EB33C /* Common.swift in Sources */,
 				572552431FEDA4E8002EB33C /* ViewController.swift in Sources */,
+				577399641FEF11AD0037DC49 /* KeepAlive.swift in Sources */,
+				577399521FEE27C30037DC49 /* USBBridge.swift in Sources */,
+				572552551FEDA529002EB33C /* PlaygroundBundle.swift in Sources */,
 				572552411FEDA4E8002EB33C /* AppDelegate.swift in Sources */,
+				5725527B1FEDA70F002EB33C /* PTChannel.m in Sources */,
+				5725527F1FEDA70F002EB33C /* PTUSBHub.m in Sources */,
+				5725527D1FEDA70F002EB33C /* PTProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572552561FEDA580002EB33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577399791FEF81B20037DC49 /* FolderWatcher.swift in Sources */,
+				576370741FF4BF61003451E8 /* MainWindow.swift in Sources */,
+				5725525F1FEDA580002EB33C /* ViewController.swift in Sources */,
+				5725527E1FEDA70F002EB33C /* PTProtocol.m in Sources */,
+				5725527C1FEDA70F002EB33C /* PTChannel.m in Sources */,
+				5725528B1FEE054B002EB33C /* USBBridge.swift in Sources */,
+				572552801FEDA70F002EB33C /* PTUSBHub.m in Sources */,
+				5725525D1FEDA580002EB33C /* AppDelegate.swift in Sources */,
+				572552891FEDF25B002EB33C /* Common.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577399551FEF071B0037DC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577399741FEF73660037DC49 /* USBBridge.swift in Sources */,
+				5773996D1FEF5A950037DC49 /* Common.swift in Sources */,
+				5773995C1FEF071B0037DC49 /* main.swift in Sources */,
+				577399751FEF74FF0037DC49 /* PTChannel.m in Sources */,
+				577399771FEF74FF0037DC49 /* PTUSBHub.m in Sources */,
+				577399761FEF74FF0037DC49 /* PTProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5773995F1FEF071B0037DC49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5725523C1FEDA4E8002EB33C /* iosPlaygrounds+ */;
+			targetProxy = 5773995E1FEF071B0037DC49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		572552441FEDA4E8002EB33C /* Main.storyboard */ = {
@@ -158,6 +441,14 @@
 				5725524A1FEDA4E8002EB33C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		572552621FEDA580002EB33C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				572552631FEDA580002EB33C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,10 +567,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K66YLH92A2;
-				INFOPLIST_FILE = "Playgrounds+/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Playgrounds+ iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.matt-curtis.Playgrounds-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt-curtis.PlaygroundsPlusIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Peertalk/Peertalk.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,12 +584,87 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K66YLH92A2;
-				INFOPLIST_FILE = "Playgrounds+/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Playgrounds+ iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.matt-curtis.Playgrounds-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt-curtis.PlaygroundsPlusIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Peertalk/Peertalk.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		572552681FEDA580002EB33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K66YLH92A2;
+				INFOPLIST_FILE = "$(SRCROOT)/Playgrounds+ Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt-curtis.PlaygroundsPlusMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = Peertalk/Peertalk.h;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		572552691FEDA580002EB33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K66YLH92A2;
+				INFOPLIST_FILE = "$(SRCROOT)/Playgrounds+ Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt-curtis.PlaygroundsPlusMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = Peertalk/Peertalk.h;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		577399611FEF071B0037DC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K66YLH92A2;
+				INFOPLIST_FILE = "iosPlaygrounds+ UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt-curtis.iosPlaygrounds--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Peertalk/Peertalk.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iosPlaygrounds+";
+			};
+			name = Debug;
+		};
+		577399621FEF071B0037DC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K66YLH92A2;
+				INFOPLIST_FILE = "iosPlaygrounds+ UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matt-curtis.iosPlaygrounds--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Peertalk/Peertalk.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iosPlaygrounds+";
 			};
 			name = Release;
 		};
@@ -312,11 +680,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5725524F1FEDA4E8002EB33C /* Build configuration list for PBXNativeTarget "Playgrounds+" */ = {
+		5725524F1FEDA4E8002EB33C /* Build configuration list for PBXNativeTarget "iosPlaygrounds+" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				572552501FEDA4E8002EB33C /* Debug */,
 				572552511FEDA4E8002EB33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572552671FEDA580002EB33C /* Build configuration list for PBXNativeTarget "macPlaygrounds+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572552681FEDA580002EB33C /* Debug */,
+				572552691FEDA580002EB33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577399601FEF071B0037DC49 /* Build configuration list for PBXNativeTarget "P+ Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577399611FEF071B0037DC49 /* Debug */,
+				577399621FEF071B0037DC49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
