@@ -11,5 +11,3 @@
 #import "PTChannel.h"
 #import "PTProtocol.h"
 #import "PTUSBHub.h"
-
-IOHIDEventCreateKeyboardEvent
